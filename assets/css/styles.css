@@ -6,6 +6,61 @@
   padding: 0;
 }
 
+html {
+  font-size: 62, 5px;
+}
+
+body {
+  width: 100vw;
+}
+
+/*# main section*/
+
+.main-section {
+  display: flex;
+}
+
+/* !text article */
+
+h1 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+/* !foto article */
+
+article {
+  width: 50%;
+}
+
+article img {
+  width: 100%;
+}
+
+.foto-container {
+  position: relative;
+}
+
+.foto-container p {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+/*#  footer */
+
+.white-arrow {
+  background-color: black;
+}
+
+.black-arrow {
+  rotate: 180deg;
+}
+
+footer {
+  background-color: #f7f7f7;
+}
+
 @media screen and (max-width: 720px) {
 }
 
