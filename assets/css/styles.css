@@ -37,8 +37,8 @@ h1 {
   top: 20%;
 }
 .text-container p {
-  padding: 3rem 0;
-  width: 45%;
+  padding: 3rem 2rem 3rem 0;
+  font-size: 0.8rem;
 }
 
 /* !foto article */
@@ -48,7 +48,7 @@ article {
 }
 
 article img {
-  width: 100%;
+  width: 50vw;
 }
 
 .foto-container {
@@ -128,7 +128,7 @@ footer {
   background-color: #f7f7f7;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 876px) {
 }
 
 @media screen and (max-width: 450px) {
