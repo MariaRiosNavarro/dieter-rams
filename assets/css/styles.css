@@ -8,10 +8,12 @@
 
 html {
   font-size: 62, 5px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
   width: 100vw;
+  height: 100vh;
 }
 
 /*# main section*/
@@ -24,7 +26,19 @@ body {
 
 h1 {
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  position: relative;
+  top: 20%;
+}
+.text-container p {
+  padding: 3rem 0;
+  width: 45%;
 }
 
 /* !foto article */
@@ -44,10 +58,63 @@ article img {
 .foto-container p {
   position: absolute;
   top: 1rem;
-  left: 1rem;
+  left: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.foto-container span {
+  font-weight: 100;
+  font-size: 0.8rem;
 }
 
 /*#  footer */
+
+footer {
+  height: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+}
+
+footer div {
+  width: 33%;
+}
+
+.nav-container {
+  padding-left: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.arrow-container {
+  height: 5.5rem;
+  width: 11rem;
+}
+
+.black-bg {
+  background-color: black;
+}
 
 .white-arrow {
   background-color: black;
