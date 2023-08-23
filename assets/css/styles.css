@@ -126,10 +126,41 @@ nav {
 
 footer {
   background-color: #f7f7f7;
+  margin: 0.5rem auto;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 950px) {
+  .text-container h2 {
+    width: 25%;
+  }
+
+  .text-container {
+    top: 20%;
+  }
+
+  .text-container p {
+    padding-top: 2rem;
+  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 902px) {
+  .text-container {
+    top: 18%;
+  }
+
+  .text-container p {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-section {
+    flex-direction: column;
+  }
+  article {
+    width: 100%;
+  }
+  article img {
+    width: 100vw;
+  }
 }
