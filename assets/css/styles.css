@@ -16,6 +16,8 @@ body {
   height: 100vh;
 }
 
+/* Desktop first */
+
 /*# main section*/
 
 .main-section {
@@ -162,5 +164,14 @@ footer {
   }
   article img {
     width: 100vw;
+  }
+  .picture-footer {
+    padding: 1rem;
+  }
+  .picture-footer h2 {
+    font-size: 1rem;
+  }
+  .picture-footer h3 {
+    font-size: 0.8rem;
   }
 }
